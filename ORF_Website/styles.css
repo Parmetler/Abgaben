@@ -1,0 +1,84 @@
+body { 
+  max-width: 1000px;
+  margin: auto;
+font-family: 'Source Sans Pro';}
+.section1 { padding-left: 30px; padding-right: 30px;
+  background-color: steelblue;
+color: white;}
+
+#Rushdie { height: auto;
+            width: 100%;}
+
+.section3 {background-color: lightblue; border-left:1rem solid dodgerblue;}
+#zitat { padding-left: 300px;}
+#putin { padding-left: 90px; padding-top: 15px; padding-bottom: 15px;
+        height: auto;
+        width: 150px;
+      }
+    #name {padding-left: 300px;}
+/*Nav*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16416B;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: steelblue;
+  }
+
+  ul {list-style-type: none;}
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+/*Contact*/
+.section4 { padding-left: 30px; padding-right: 30px; padding-bottom: 30px;
+  background-color: steelblue;
+color: white;
+}
+  input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #333;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/*top 40*/
+#top { height: auto;
+  width: 100%; align-self: center; }
+.charts th { border-collapse: collapse; 
+  border: 1px solid;
+}
